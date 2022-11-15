@@ -1,0 +1,6 @@
+SELECT     
+  P.BusinessEntityID,
+  E.FirstName,
+  E.LastName
+FROM [Person].[Person] as P
+LEFT JOIN [HumanResources].[Employee] as E on E.BusinessEntityID = P.BusinessEntityID
