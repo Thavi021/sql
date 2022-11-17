@@ -1,0 +1,3 @@
+UPDATE [Sales].[Currency]  
+SET CurrencyCode = 'SQL'
+WHERE CurrencyCode = 'MSS'
