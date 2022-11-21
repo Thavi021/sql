@@ -1,0 +1,7 @@
+
+-- A list of all calls (sorted by employee and start time)
+SELECT *
+FROM call
+ORDER BY
+    call.employee_id ASC,
+    call.start_time ASC;
